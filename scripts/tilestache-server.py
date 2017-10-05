@@ -36,7 +36,7 @@ if __name__ == '__main__':
         help="the path to the tilestache config")
     parser.add_option("-i", "--ip", dest="ip", default="127.0.0.1",
         help="the IP address to listen on")
-    parser.add_option("-p", "--port", dest="port", type="int", default=8080,
+    parser.add_option("-p", "--port", dest="port", type="int", default=8079,
         help="the port number to listen on")
     parser.add_option('--include-path', dest='include',
         help="Add the following colon-separated list of paths to Python's include path (aka sys.path)")

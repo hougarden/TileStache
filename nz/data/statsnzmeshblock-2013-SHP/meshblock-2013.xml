@@ -1,0 +1,179 @@
+<gmd:MD_Metadata xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gml="http://www.opengis.net/gml" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns="http://www.isotc211.org/2005/gmd">
+  <gmd:fileIdentifier>
+    <gco:CharacterString>f11f0512-82a5-2454-27ae-db56feb7d6ff</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language>
+    <gco:CharacterString>eng</gco:CharacterString>
+  </gmd:language>
+  <gmd:hierarchyLevel>
+    <gmd:MD_ScopeCode codeList="./resources/codeList.xml#MD_ScopeCode" codeListValue="005"/>
+  </gmd:hierarchyLevel>
+  <gmd:hierarchyLevelName>
+    <gco:CharacterString>dataset</gco:CharacterString>
+  </gmd:hierarchyLevelName>
+  <gmd:dateStamp>
+    <gco:DateTime>20140721</gco:DateTime>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName>
+    <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion>
+    <gco:CharacterString>1.0</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:spatialRepresentationInfo>
+    <gmd:MD_VectorSpatialRepresentation>
+      <gmd:topologyLevel>
+        <gmd:MD_TopologyLevelCode codeList="./resources/codeList.xml#MD_TopologyLevelCode" codeListValue="001"/>
+      </gmd:topologyLevel>
+      <gmd:geometricObjects>
+        <gmd:MD_GeometricObjects>
+          <gmd:geometricObjectType>
+            <gmd:MD_GeometricObjectTypeCode codeList="./resources/codeList.xml#MD_GeometricObjectTypeCode" codeListValue="002"/>
+          </gmd:geometricObjectType>
+          <gmd:geometricObjectCount>
+            <gco:Integer>46621</gco:Integer>
+          </gmd:geometricObjectCount>
+        </gmd:MD_GeometricObjects>
+      </gmd:geometricObjects>
+    </gmd:MD_VectorSpatialRepresentation>
+  </gmd:spatialRepresentationInfo>
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification>
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>MB2013</gco:CharacterString>
+          </gmd:title>
+          <gmd:presentationForm>
+            <gmd:CI_PresentationFormCode codeList="./resources/codeList.xml#CI_PresentationFormCode" codeListValue="005"/>
+          </gmd:presentationForm>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract>
+        <gco:CharacterString>This dataset is the definitive set of meshblock boundaries for 2013 as defined by Statistics New Zealand.
+Statistics New Zealand maintains an annual meshblock pattern for the collection and production of statistical data, allowing data to be compared over time. A meshblock is the smallest geographic unit for which statistical data is collected and processed by Statistics New Zealand. A meshblock is defined by a geographic area, which can vary in size from part of a city block to a large area of rural land. Each meshblock abuts against another to form a network covering all of New Zealand, including coasts and inlets and extending out to the 200 mile economic zone. Meshblocks are added together to build up larger geographic areas such as area units and urban areas. They are also used to define electoral districts, territorial authorities and regional councils.
+Meshblocks are allocated a unique seven-digit number. The first 5 digits are unique, and refer to the original 1976 meshblock code. The two end numbers refer to sequential meshblock splits to the original meshblock. When a meshblock is split the final two digits of the original meshblock number are changed. Exceptions to this rule are a small number of meshblocks where no more numbers in the sequence are available. There are therefore some meshblocks in Auckland and Tauranga City starting with 32xxxxx. Statistics New Zealand maintains a concordance file to ensure that boundaries relating to earlier meshblock patterns can also be produced.
+There are two ways of amending meshblock boundaries.
+1. Splitting is the subdivision of a meshblock into two or more meshblocks.
+2. Nudging is the shifting of a boundary to a more appropriate position.
+Reasons for splits and nudges include:
+- to accommodate changes to local government boundaries, which are required by the Local Government Act 2002 to follow meshblocks for electoral purposes.
+- to accommodate changes to parliamentary electoral boundaries, following each Electoral Representation Commission review after each five yearly Census of Population and Dwellings.
+- to make changes to statistical boundaries such as area units and urban areas.
+- to enable changes to census collection districts.
+- to improve the size balance of meshblocks in areas where there has been population growth.
+- to separate land and water e.g. mainland, islands, inlets, oceanic are defined separately.
+- to accommodate requests from other users of the meshblock pattern e.g. the NZ Police for their station, area and district boundaries.
+The dataset is intended for use in the display and presentation of statistical and other data to show areas of high or low density and distributions for comparative purposes over time. The digital geographic boundaries are defined by Statistics New Zealand. They are maintained on behalf of Statistics New Zealand by Land Information New Zealand in Landonline using ArcInfo.
+Meshblocks cover the land area of New Zealand, the water area to the 12 mile limit, the Chatham Islands, Kermadec Islands, sub-antarctic islands, off-shore oil rigs, and Ross Dependency. The following 16 meshblocks are not held in digitised form.
+Meshblock Location (Area Unit name)
+0016901
+Oceanic-Kermadec Islands
+0016902
+Kermadec Islands
+1588000
+Oil Rig-Taranaki
+3166401
+Oceanic-Campbell Island
+3166402
+Campbell Island
+3166600
+Oil Rig-Southland
+3166710
+Oceanic-Auckland Islands
+3166711
+Auckland Islands
+3195000
+Ross Dependency
+3196001
+200 Mile Economic Zone
+3196002
+Oceanic-Bounty Islands
+3196003
+Bounty Islands
+3196004
+Oceanic-Snares Islands
+3196005
+Snares Islands
+3196006
+Oceanic-Antipodes Islands
+3196007
+Antipodes Islands
+
+Meshblock boundaries generally follow road centre-lines, cadastral property boundaries or topographical features (e.g. rivers). Expanses of water in the form of lakes and inlets are defined separately from land.
+The annual pattern of digital boundaries is used for the full calendar year from 1 January and applies to the timing of the survey – not necessarily when the data is processed.</gco:CharacterString>
+      </gmd:abstract>
+      <gmd:purpose>
+        <gco:CharacterString>This dataset is the definitive set of meshblock boundaries for 2013 as defined by Statistics New Zealand.</gco:CharacterString>
+      </gmd:purpose>
+      <gmd:credit>
+        <gco:CharacterString>Statistics New Zealand</gco:CharacterString>
+      </gmd:credit>
+      <gmd:spatialRepresentationType>
+        <gmd:MD_SpatialRepresentationTypeCode codeList="./resources/codeList.xml#MD_SpatialRepresentationTypeCode" codeListValue="001"/>
+      </gmd:spatialRepresentationType>
+      <gmd:language>
+        <gco:CharacterString>eng</gco:CharacterString>
+      </gmd:language>
+      <gmd:environmentDescription>
+        <gco:CharacterString>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.0.3397</gco:CharacterString>
+      </gmd:environmentDescription>
+      <gmd:extent>
+        <gmd:EX_Extent>
+          <gmd:geographicElement/>
+        </gmd:EX_Extent>
+      </gmd:extent>
+      <gmd:extent>
+        <gmd:EX_Extent>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>165.973643757</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>-175.379047054</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>-47.6201235791</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>-33.9584971002</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:distributionInfo>
+    <gmd:MD_Distribution>
+      <gmd:transferOptions>
+        <gmd:MD_DigitalTransferOptions>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://datafinder.stats.govt.nz/layer/8347-meshblock-2013/</gmd:URL>
+              </gmd:linkage>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>http://www.stats.govt.nz/browse_for_stats/Maps_and_geography/Geographic-areas/digital-boundary-files.aspx#metadata</gmd:URL>
+              </gmd:linkage>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+        </gmd:MD_DigitalTransferOptions>
+      </gmd:transferOptions>
+    </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <gmd:metadataConstraints>
+    <gmd:MD_LegalConstraints>
+      <gmd:useLimitation>Attribution-No Derivative Works 3.0 New Zealand</gmd:useLimitation>
+      <gmd:useLimitation>http://creativecommons.org/licenses/by-nd/3.0/nz/</gmd:useLimitation>
+      <gmd:useConstraints>
+        <gmd:MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="license">license</gmd:MD_RestrictionCode>
+      </gmd:useConstraints>
+    </gmd:MD_LegalConstraints>
+  </gmd:metadataConstraints>
+</gmd:MD_Metadata>

@@ -13,3 +13,6 @@ TileStache.egg-info/
 *.shx
 .coverage
 .idea/
+.DS_Store
+nz/.DS_Store
+tile-env/
