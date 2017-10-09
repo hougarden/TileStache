@@ -16,3 +16,4 @@ TileStache.egg-info/
 .DS_Store
 nz/.DS_Store
 tile-env/
+tilestache.wsgi
